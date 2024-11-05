@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Ensure this font is loaded */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Background color for the page */
+}
+
+/* Navigation Styles */
+.navigation-wrapper {
+    background: #fff; /* Navigation background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    height: 40px; /* Adjust logo size */
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto; /* Responsive image */
+}
+
+/* Intro Section */
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.intro-column-1 {
+    flex: 1;
+    margin-right: 20px; /* Space between columns */
+}
+
+.intro-column-2 {
+    flex: 1;
+    text-align: center; /* Center align the image */
+}
+
+.cocktail-img {
+    max-width: 100%;
+    height: auto; /* Responsive image */
+}
+
+/* Button Styles */
+.pre-order-button {
+    background-color: #007BFF; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s;
+}
+
+.pre-order-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+}
+
+footer a {
+    color: #007BFF; /* Footer link color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
